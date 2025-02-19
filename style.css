@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1{
+    font-family: "Poppins", serif;
+    background: linear-gradient(to right, rgb(48, 9, 241), rgb(255, 2, 2), rgb(255, 5, 121));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-weight: bold;
+    animation: change 1.8s infinite;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@keyframes change {
+    0% {
+        background: linear-gradient(to right, rgb(233, 14, 14), rgb(30, 16, 222), rgba(236, 6, 186, 0.833));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        ;
+    }
+
+    25% {
+        background: linear-gradient(to right, rgb(43, 221, 234), rgb(245, 32, 96), rgba(45, 236, 86, 0.833));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        ;
+    }
+
+    50% {
+        background: linear-gradient(to right, rgb(252, 174, 6), rgb(164, 5, 232), rgba(255, 4, 100, 0.833));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        ;
+    }
+
+    75% {
+        background: linear-gradient(to right, rgb(245, 186, 162), rgb(251, 231, 11), rgba(19, 135, 146, 0.833));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        ;
+    }
+
+    100% {
+        background: linear-gradient(to right, rgb(10, 243, 255), rgb(255, 1, 158), rgba(7, 217, 217, 0.833));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        ;
+    }
+}
+
+
